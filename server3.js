@@ -2,8 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const { ethers } = require('ethers');
 const axios = require('axios');
-// nethermind, nimbus for consesus
-// go with without staking
+
 const app = express();
 const port = 3000;
 
